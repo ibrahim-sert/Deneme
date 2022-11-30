@@ -1,0 +1,44 @@
+/* body{
+    background-color: bisque;
+
+} */
+/* body{
+    background-image: url(http://harita.sitesi.web.tr/galeri/15/015.jpg) ;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+} */
+body{
+    background: #777777 url(https://image.winudf.com/v2/image/Y29tLmRldmh1Yi5Nb2Rlcm5BcmFiaWNMYW5ndWFnZWVCb29rX3NjcmVlbl8wXzE1MTk1MDYyODVfMDA4/screen-0.jpg?h=500&fakeurl=1&type=.jpg) no-repeat fixed ;
+    width: 1000px;
+    height: 1000px;
+}
+
+/* p{
+    background-color:rgb(207,73,73);
+
+} */
+a{
+    background-color: rgb(21, 255, 73);
+    opacity: 0.3;
+}
+div p{
+    background-color: rgba(100, 150, 200, 0.622);
+    background-image: url(https://avatars.mds.yandex.net/i?id=aed6b2e87b04372121c4b18ba046bc69-4120299-images-thumbs&ref=rim&n=33&w=200&h=150);
+    background-size: 100%;
+    
+    background-repeat: no-repeat;
+}
+div{
+    border: 4px solid;
+    width: 400px;
+}
+#one{
+    opacity: 1;
+    background-color:rgba(190, 150, 200, 0.946);
+}
+.p1{
+    border: solid 3px;
+    border-style:inset;
+    border-image: url(https://cdn-icons-png.flaticon.com/128/9028/9028845.png) ;
+}
