@@ -1,0 +1,35 @@
+/* ul{
+    list-style-type: none;
+    list-style-image:url(./img/L\ gifi.gif) ;
+    color: rgb(200, 45, 195);
+    font-size: 20px;
+} */
+
+ul li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 30px;
+}
+
+span {
+  font-weight: 900;
+  color: red;
+  padding-left: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+a:visited{
+    text-decoration: overline;
+    color: red;
+}
+
+a:active{
+    text-decoration:line-through;
+    color: green;
+}

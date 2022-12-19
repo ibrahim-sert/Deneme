@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Elements</title>
+  </head>
+  <body>
+    <form action="">
+      <p>Please enter your comments.</p>
+      <textarea
+        name="comment"
+        id="comment"
+        cols="30"
+        rows="10"
+        placeholder="Enter your comments"
+      ></textarea
+      ><br />
+      <select name="renkler" id="renkler">
+        <option value="kırmızı">kırmızı</option>
+        <option value="sarı">sarı</option>
+        <option value="mavi">mavi</option>
+        <option value="beyaz">beyaz</option>
+      </select>
+      <p>Çok fazla seçenekler için:</p>
+      <input type="text" name="lessons" list="lessons" />
+      <datalist id="lessons">
+        <option value="java"></option>
+        <option value="CSS"></option>
+        <option value="HTML"></option>
+        <option value="Phyton"></option>
+        <option value="PHP"></option>
+        <option value="Djoango"></option>
+      </datalist>
+    </form>
+  </body>
+</html>
