@@ -43,8 +43,6 @@
 // arr.push(sum, sum1);
 // console.log(arr);
 
-
-
 // let num = [];
 // let sayı;
 
@@ -55,3 +53,49 @@
 //   }
 // }
 // console.log(ranNumber);
+const karakter = [
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "l",
+  "n",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "v",
+  "w",
+  "x",
+  "y",
+  "z",
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+];
+
+let sifre = "";
+
+for (i = 0; i <= 5; i++) {
+  let ranKar = Math.round(Math.random() * karakter.length);
+  sifre += karakter[ranKar];
+  console.log(sifre);
+}
