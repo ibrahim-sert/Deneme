@@ -1,0 +1,29 @@
+table,
+th,
+td {
+  border: 2px solid red;
+  border-collapse: collapse;
+  color: blueviolet;
+  width: 50%;
+  text-align: center;
+  height: 50px;
+  padding: 8px;
+  margin: 40px;
+}
+th:hover {
+  background-color: aqua;
+}
+img {
+  width: 40px;
+  height: 120px;
+}
+#resim1 img:hover {
+  width: 80%;
+  vertical-align: ;
+}
+tr:nth-child(even) {
+  background-color: silver;
+}
+tr:nth-child(odd) {
+  background-color: aquamarine;
+}

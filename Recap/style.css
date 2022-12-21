@@ -1,0 +1,27 @@
+body {
+  background-color: bisque;
+}
+.list {
+  list-style-type: none;
+  padding: 5px;
+
+  height: 40px;
+}
+li {
+  float: left;
+  margin: 20px;
+  text-align: center;
+  background-color: orange;
+  width: auto;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+li:hover {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  text-shadow: 2px 2px 2px white;
+  box-shadow: 3px 3px 3px orange;
+}

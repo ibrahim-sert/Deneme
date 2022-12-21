@@ -1,0 +1,18 @@
+html {
+}
+
+h1 {
+  color: red;
+}
+
+p.first {
+  font-size: 30px;
+}
+
+p.text-style {
+  text-align: justify;
+  font-weight: 900;
+  font-variant: small-caps;
+}
+
+

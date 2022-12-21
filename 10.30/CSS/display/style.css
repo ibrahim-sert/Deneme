@@ -1,0 +1,33 @@
+/* h1{
+    display: none;
+} */
+
+.ctn {
+  background-color: aqua;
+  border: 2px solid red;
+  margin: 20px;
+  width: 40px;
+  height: 50px;
+  padding: 4px;
+  align-items: center; /*?hareket ettirilmek istenen yerin taşıyıcı konteynırına  yazılı ve dikeyde ortalamaya yarar*/
+  display: flex;
+  
+  
+}
+.container {
+  /* flex-direction: column; */
+  
+  background-color: blue;
+  display: flex; /*! blok olan kısmı satıra dönüştürür*/
+  text-align: center;
+  justify-content:center;  /*!ortlama yapar*/
+  flex-wrap: wrap; /*!sayfaya sığmayan kısmı aşağı atar*/
+  //*justify-content: space-around; /*!sağa sola kutuları atar arasına ortalama boşluk verir*/
+  //*justify-content: space-between;/*!sağa sola kutuları tam yaslar arasına ortalama boşluk verir*/
+  align-items: flex-start;
+  
+  
+
+
+
+

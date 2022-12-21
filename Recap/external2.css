@@ -1,0 +1,22 @@
+* {
+  background-color: antiquewhite;
+}
+div {
+  display: inline;
+  padding: 25px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: orange;
+  margin: 30px;
+}
+div:hover {
+  color: white;
+  background-color: orange;
+  font-size: 20px;
+  text-shadow: 5px 5px 5px white;
+  box-shadow: 5px 5px 5px orange;
+  margin: auto;
+}
+h1 {
+  margin: 40px;
+}

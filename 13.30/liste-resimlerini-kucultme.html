@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>List icon</title>
+
+    <style>
+      li {
+        list-style: none;
+      }
+
+      /* Set the list image as background image*/
+      li::before {
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        list-style-position: inside;
+
+        /* Height of the list image*/
+        height: 10px;
+
+        /* Width of the list image*/
+        width: 10px;
+        background-image: url("https://media.geeksforgeeks.org/wp-content/uploads/20220607182945/geeksforgeeks.jpg");
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 style="color: green">GeeksforGeeks</h1>
+
+    <ul>
+      <li>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quae
+        perferendis fugit dolore explicabo beatae dolor tempore? Ratione
+        temporibus ea sint quo dicta saepe quasi explicabo, harum praesentium
+        repudiandae corrupti.
+      </li>
+      <li>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint rem fugit
+        blanditiis dolore omnis natus ipsum, nobis minus dolorum similique
+        doloribus repudiandae aperiam porro tenetur magni quae obcaecati
+        expedita a.
+      </li>
+      <li>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquid,
+        illum earum corporis ullam asperiores, quo quam recusandae ipsum ex
+        sequi sint aspernatur, autem ducimus architecto expedita? Accusantium,
+        voluptatibus! Illo.
+      </li>
+    </ul>
+  </body>
+</html>

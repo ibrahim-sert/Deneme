@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-image: url(https://cdn.pixabay.com/photo/2022/11/24/02/28/clouds-7613361_960_720.png);
+}
+
+form {
+  /* text-align: center; */
+  padding: 10px;
+  display: inline-block;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  margin-top: 100px;
+  border-radius: 15px;
+  width: fit-content;
+  box-shadow: 4px 4px 4px 4px white;
+}
+label {
+  color: white;
+  display: inline-block;
+  text-align: left;
+  width: 120px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px black;
+}
+
+#r1,
+#r2,
+#r3 {
+  margin-right: 200px;
+}
+input {
+  border-radius: 20px;
+  border-color: antiquewhite;
+  padding: 10px;
+}
+
+#cursor:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #e0c3fc;
+  width: 75px;
+  height: 50px;
+}
