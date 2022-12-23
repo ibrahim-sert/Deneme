@@ -92,10 +92,77 @@ const karakter = [
   "9",
 ];
 
-let sifre = "";
+// let sifre = "";
 
-for (i = 0; i <= 5; i++) {
-  let ranKar = Math.round(Math.random() * karakter.length);
-  sifre += karakter[ranKar];
-  console.log(sifre);
+// for (i = 0; i <= 5; i++) {
+//   let ranKar = Math.round(Math.random() * karakter.length);
+//   sifre += karakter[ranKar];
+//   console.log(sifre);
+// }
+
+// let kimlik = [];
+// let x = Math.round(Math.random() * 100);
+
+// for (i = 0; i < x; i++) {
+//   let y = Math.floor(Math.random() * karakter.length);
+//   kimlik += karakter[y];
+// }
+// console.log(kimlik);
+
+// let hexKarakter = [
+//   "0",
+//   "1",
+//   "2",
+//   "3",
+//   "4",
+//   "5",
+//   "6",
+//   "7",
+//   "8",
+//   "9",
+//   "a",
+//   "b",
+//   "c",
+//   "d",
+//   "e",
+//   "f",
+// ];
+// let hex = "#";
+
+// for (i = 0; i < 6; i++) {
+//   let x = Math.floor(Math.random() * hexKarakter.length);
+//   hex += hexKarakter[x];
+// }
+// console.log(hex);
+
+// let r= Math.round(Math.random())*255
+// let g= Math.round(Math.random())*255
+// let b= Math.round(Math.random())*255
+// console.log(...b.);
+
+const countries = [
+  "Albania",
+  "Bolivia",
+  "Canada",
+  "Denmark",
+  "Ethiopia",
+  "Finland",
+  "Germany",
+  "Hungary",
+  "Ireland",
+  "Japan",
+  "Kenya",
+];
+
+for (j = 0; j < countries.length; j++) {
+  countries[j] = countries[j].toUpperCase();
 }
+console.log(countries);
+
+let countriesLength = [];
+
+for (i = 0; i < countries.length; i++) {
+  countriesLength.push(countries[i].length);
+}
+
+console.log(countriesLength);
