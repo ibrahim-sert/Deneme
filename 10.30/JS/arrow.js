@@ -84,30 +84,27 @@ console.log(speed(100, 5));
 
 //*Q13
 
-// const age = Number(prompt("Enter your age"));
+const age = Number(prompt("Enter your age"));
 
-// if (age < 20) console.log("I cant calculated your BMI ");
-// else {
-//   const weight = Number(prompt("Enter your weight"));
-//   const height = Number(prompt("Enter your height"));
-//   const BMI = () => {
-//     return weight / (height * height);
-//   };
-//   console.log(BMI());
+if (age < 20) {
+  console.log("I cant calculated your BMI ");
+} else {
+  const BMI = (weight, height) => weight / (height * height);
 
-//   if ((BMI() < 18, 5)) {
-//     console.log("Underweight");
-//   } else if ((18, 5 <= BMI() && BMI() < 24, 9)) {
-//     console.log("Normal weight");
-//   } else if ((24, 9 <= BMI() && BMI() < 29.9)) {
-//     console.log("Overweight");
-//   } else if (BMI() >= 30) {
-//     console.log("Obese");
-//   } else {
-//     console.log("Please enter a positive value!");
-//   }
-
-// }
+  let x = BMI(107, 1.77);
+  console.log(x);
+  if (x < 18.5) {
+    console.log("Underweight");
+  } else if (18.5 <= x && x < 24.9) {
+    console.log("Normal weight");
+  } else if (24.9 <= x && x < 29.9) {
+    console.log("Overweight");
+  } else if (x >= 30) {
+    console.log("Obese");
+  } else {
+    console.log("Please enter a positive value!");
+  }
+}
 
 // const printFullName = (firstName, lastName) => {
 //   return `${firstName} ${lastName}`
@@ -116,35 +113,54 @@ console.log(speed(100, 5));
 
 // console.log(printFullName('Asabeneh', 'Yetayeh'))
 
-//*    LEVOS
-const age = Number(prompt("enter your age"));
-if (age >= 20) {
-  let weight = Number(prompt("enter your weight"));
-  let height = Number(prompt("enter your height"));
-  const bmi = () => {
-    return weight / (height * height);
-  };
-  console.log(bmi());
-  if (bmi() <= 18.5) {
-    console.log("underweight");
-  } else if (bmi() > 18.5 && bmi() <= 24.9) {
-    console.log("Normal weight");
-  } else if (bmi() > 24.9 && bmi() <= 29.9) {
-    console.log("Overweight");
-  } else {
-    console.log("obese");
+// //*    LEVOS
+// const age = Number(prompt("enter your age"));
+// if (age >= 20) {
+//   let weight = Number(prompt("enter your weight"));
+//   let height = Number(prompt("enter your height"));
+//   const bmi = () => {
+//     return weight / (height * height);
+//   };
+//   console.log(bmi());
+//   if (bmi() <= 18.5) {
+//     console.log("underweight");
+//   } else if (bmi() > 18.5 && bmi() <= 24.9) {
+//     console.log("Normal weight");
+//   } else if (bmi() > 24.9 && bmi() <= 29.9) {
+//     console.log("Overweight");
+//   } else {
+//     console.log("obese");
+//   }
+// } else {
+//   console.log("your age is not enough");
+// }
+
+// const greetings = (name, surname) => {
+//   let message = name + surname + ", welcome to 30 Days Of JavaScript!";
+//   return message;
+// };
+
+// console.log(greetings());
+// console.log(greetings("Asabeneh"));
+
+// const calculateAge = (birthYear, currentYear = NaN) => currentYear + birthYear;
+// console.log("Age: ", calculateAge("safa"));
+
+const faktoriyel=(n) =>{
+  if(n==0){
+    return 1
+  }else if(n<0){
+    console.log("enter a positive number");
+  }else{
+  return n*faktoriyel(n-1)
   }
-} else {
-  console.log("your age is not enough");
 }
+console.log(faktoriyel(6));
 
-const greetings = (name, surname) => {
-  let message = name + surname + ", welcome to 30 Days Of JavaScript!";
-  return message;
-};
 
-console.log(greetings());
-console.log(greetings("Asabeneh"));
-
-const calculateAge = (birthYear, currentYear = NaN) => currentYear + birthYear;
-console.log("Age: ", calculateAge("safa"));
+let c =15
+const func1= ()=>{
+  c=45
+}
+func1()
+console.log(c);
