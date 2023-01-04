@@ -86,23 +86,26 @@ console.log(findClosestPalindrome(216));
 console.log(findClosestPalindrome(42));
 console.log(findClosestPalindrome(15890));
 
+const prices = [100, 250, 50, 89];
+let total = 0;
+prices.forEach((p, i, arr) => {
+  total += p;
+  console.log(`${i + 1}. iterasyon:${total}`);
 
-const prices=[100,250,50,89]
-let total=0
-prices.forEach((p,i,arr)=> {
-  total+=p
-  console.log(`${i+1}. iterasyon:${total}`);
-
-  arr[i]= Math.trunc(p*1.1)
-})
+  arr[i] = Math.trunc(p * 1.1);
+});
 console.log(prices);
 
+let names = ["Mustafa", "Murat", "Ahmet", "Mustafa", "Ayşe", "canan"];
 
-let names=["Mustafa", "Murat","Ahmet","Mustafa","Ayşe", "canan"]
-
-const upperNames=names.map((n)=>n.toLocaleUpperCase())
+const upperNames = names.map((n) => n.toLocaleUpperCase());
 
 console.log(upperNames);
 console.log(names);
+
+const arr = ["ali", "veli"];
+for (let i in arr) {
+  console.log(i, arr[i]);
+}
 
 
