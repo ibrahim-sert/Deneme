@@ -108,4 +108,31 @@ for (let i in arr) {
   console.log(i, arr[i]);
 }
 
+class tanım {
+  constructor(x, y, z, arr) {
+    this.x = x;
+    this.y = y;
+    this.z = z;
+    this.arr = [1, 2, 3, 4, 5];
+  }
 
+  sum() {
+    return this.x + this.y + this.z;
+  }
+
+  çarpma() {
+    return this.x * this.y;
+  }
+  reduce1() {
+    return this.arr.reduce((total, value) => total + value, 0);
+  }
+}
+let tanım1 = new tanım(3, 5, 3);
+
+let tanım2 = new tanım(4, 5);
+let tanım3 = new tanım();
+
+console.log(tanım1.sum());
+console.log(tanım1.çarpma());
+console.log(tanım2.çarpma());
+console.log(tanım3.reduce1());
