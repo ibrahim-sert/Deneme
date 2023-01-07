@@ -61,12 +61,12 @@ To find an intersection of two sets can be achieved using filter. Lets find the 
 To find an the difference between two sets can be achieved using filter. Lets find the different of set A and set B (A \ B)*/
 
 /*alıştırmalar*/
-const a = [4, 5, 8, 9];
-const b = [3, 4, 5, 7];
+// const a = [4, 5, 8, 9];
+// const b = [3, 4, 5, 7];
 
-const countries = ["Finland", "Sweden", "Norway"];
+// const countries = ["Finland", "Sweden", "Norway"];
 
-const array = new Set();
+// const array = new Set();
 
 //    const ali= new Set()
 //    for(i=0;i<=10;i++){
@@ -111,3 +111,97 @@ const array = new Set();
 // 	Find a union b
 // Find a intersection b
 // Find a with b
+
+
+
+// let a = 'JavaScript' // is a global scope it will be found anywhere in this file
+// let b = 10 // is a global scope it will be found anywhere in this file
+// // Function scope
+// function letsLearnScope() {
+//   console.log(a, b) // JavaScript 10, accessible
+//   let value = false
+// // block scope
+//   if (true) {
+//     // we can access from the function and outside the function but 
+//     // variables declared inside the if will not be accessed outside the if block
+//     let a = 'Python'
+//     let b = 20
+//     let c = 30
+//     let d = 40
+//     const value = !value
+//     console.log(a, b, c, value) // Python 20 30 true
+//   }
+//   // we can not access c because c's scope is only the if block
+//   console.log(a, b, value) // JavaScript 10 true
+// }
+// letsLearnScope()
+// console.log(a, b,value) // JavaScript 10, accessible
+
+// const person = {
+//   firstName: 'Asabeneh',
+//   lastName: 'Yetayeh',
+//   age: 250,
+//   country: 'Finland',
+//   city: 'Helsinki',
+//   skills: [
+//     'HTML',
+//     'CSS',
+//     'JavaScript',
+//     'React',
+//     'Node',
+//     'MongoDB',
+//     'Python',
+//     'D3.js'
+//   ],
+//   getFullName: function() {
+//     return `${this.firstName} ${this.lastName}`
+//   }
+// }
+// person.nationality = 'Ethiopian'
+// person.country = 'Finland'
+// person.title = 'teacher'
+// person.skills.push('Meteor')
+// person.skills.push('SasS')
+// person.isMarried = true
+
+
+// person.getPersonInfo = function() {
+//   let skillsWithoutLastSkill = this.skills
+//     .splice(0, this.skills.length - 1)
+//     .join(', ')
+//   let lastSkill = this.skills.splice(this.skills.length - 1)[0]
+//   console.log(lastSkill);
+
+//   let skills = `${skillsWithoutLastSkill}, and ${lastSkill}`
+//   let fullName = this.getFullName()
+//   let statement = `${fullName} is a ${this.title}.\nHe lives in ${this.country}.\nHe teaches ${skills}.`
+//   return statement
+// }
+// console.log(person)
+// console.log(person.getPersonInfo())
+
+
+
+const person1 = {
+  firstName: 'Asabeneh',
+  age: 250,
+  country: 'Finland',
+  city:'Helsinki',
+  skills: ['HTML', 'CSS', 'JS'],
+  title: 'teacher',
+  address: {
+    street: 'Heitamienkatu 16',
+    pobox: 2002,
+    city: 'Helsinki'
+  },
+  getPersonInfo: function() {
+    return `I am ${this.firstName} and I live in ${this.city}, ${this.country}. I am ${this.age}.`
+  }
+}
+
+//Object methods: Object.assign, Object.keys, Object.values, Object.entries
+//hasOwnProperty
+
+const copyPerson = Object.assign({
+  , person1)
+console.log(copyPerson)
