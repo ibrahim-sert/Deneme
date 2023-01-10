@@ -158,3 +158,16 @@ const somePrice=  products.filter(value=> typeof value.price==="number").reduce(
 console.log(somePrice);
 
 //?=====Q4=======*/
+
+
+
+let val = 4;
+const cont = function () {
+  let val = 5;
+  return val
+};
+
+cont();
+// console.log(val);
+
+console.log(cont());
