@@ -43,4 +43,7 @@ const calculateCartPrice=()=>{
     const productsTotalPricesDivs=document.querySelectorAll(".price");
     const subtotal=[...productsTotalPricesDivs].reduce((acc,price)=> acc+Number(price.innerText),0)
     subtotal*localStorage.getItem("taxRate")
+
 }
+
+
